@@ -7,6 +7,9 @@ specifiers:
   '@finsweet/ts-utils': ^0.37.3
   '@finsweet/tsconfig': ^1.2.0
   '@playwright/test': ^1.30.0
+  '@splidejs/splide': ^4.1.4
+  '@splidejs/splide-extension-auto-scroll': ^0.5.3
+  '@types/google.maps': ^3.52.0
   '@typescript-eslint/eslint-plugin': ^5.51.0
   '@typescript-eslint/parser': ^5.51.0
   cross-env: ^7.0.3
@@ -20,6 +23,8 @@ specifiers:
 
 dependencies:
   '@finsweet/ts-utils': 0.37.3
+  '@splidejs/splide': 4.1.4
+  '@splidejs/splide-extension-auto-scroll': 0.5.3
 
 devDependencies:
   '@changesets/changelog-git': 0.1.14
@@ -27,6 +32,7 @@ devDependencies:
   '@finsweet/eslint-config': 2.0.2_i6ipunj6lkx3gq5py3h6l4ygfa
   '@finsweet/tsconfig': 1.2.0
   '@playwright/test': 1.30.0
+  '@types/google.maps': 3.52.0
   '@typescript-eslint/eslint-plugin': 5.51.0_b635kmla6dsb4frxfihkw4m47e
   '@typescript-eslint/parser': 5.51.0_4vsywjlpuriuw3tl5oq6zy5a64
   cross-env: 7.0.3
@@ -565,6 +571,18 @@ packages:
     dependencies:
       '@types/node': 18.11.18
       playwright-core: 1.30.0
+    dev: true
+
+  /@splidejs/splide-extension-auto-scroll/0.5.3:
+    resolution: {integrity: sha512-vPJ8Tn4uebnHa6scBcIypW154HTDenkazX9Nw8T1na44n7OtLoz40R4RoirteV7taPWW7w7ZZPCiEpi2ReYFAQ==}
+    dev: false
+
+  /@splidejs/splide/4.1.4:
+    resolution: {integrity: sha512-5I30evTJcAJQXt6vJ26g2xEkG+l1nXcpEw4xpKh0/FWQ8ozmAeTbtniVtVmz2sH1Es3vgfC4SS8B2X4o5JMptA==}
+    dev: false
+
+  /@types/google.maps/3.52.0:
+    resolution: {integrity: sha512-cIwkgSBUOCerEwEpAahg1SxUqqGV+D786TkVWrcZZyPvuCozmXFtzQcpOzvUXBtTUqDzEbCDGlAXDfDSYFXFIw==}
     dev: true
 
   /@types/is-ci/3.0.0:
